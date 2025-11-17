@@ -51,3 +51,9 @@ personal_recommendations.csv
 models/
 *.pkl
 *.npz
+
+# Subprojects artifacts
+movie_recommender/models/
+movie_recommender/data/
+movie_recommender/personal_ratings_detailed.csv
+digit_recognition/models/
