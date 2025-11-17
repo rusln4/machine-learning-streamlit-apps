@@ -1,0 +1,53 @@
+# OS
+.DS_Store
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual env
+.env
+.venv/
+venv/
+env/
+
+# Caches and analysis
+.mypy_cache/
+.pytype/
+.pyre/
+pytest_cache/
+.cache/
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# Data and runtime files
+data/
+personal_ratings.csv
+personal_ratings_detailed.csv
+personal_recommendations.csv
+
+# Models and artifacts
+models/
+*.pkl
+*.npz
