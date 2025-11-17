@@ -1,0 +1,4 @@
+uvicorn api.main:app --reload --port 8001
+
+streamlit run streamlit_app.py      
+pyenv shell 3.11.9
